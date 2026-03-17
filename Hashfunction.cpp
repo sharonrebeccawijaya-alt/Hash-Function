@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-    int size
+    int size;
 
     cout <<"Masukkan ukuran array : ";
     cin >> size;
@@ -11,13 +11,13 @@ int main(){
     int arr[size]={0};
 
     int input;
-    cout << "Masukkan angka yang ingin disimpan";
+    cout << "Masukkan angka yang ingin disimpan" << endl;
     cin >> input;
 
     int hashValue= input % size;
     arr[hashValue]=input;
 
-    cout<<"angka"<<input<<"disimpan di index: "<<hashValue<<endl;
+    cout<<"angka "<<input<<" disimpan di index: "<<hashValue<<endl;
 return 0; 
 
 }
